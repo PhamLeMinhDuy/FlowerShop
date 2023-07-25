@@ -1,9 +1,0 @@
-[submodule "client-admin"]
-	path = client-admin
-	url = https://github.com/PhamLeMinhDuy/FlowerShopOnline/client-admin
-[submodule "client-customer"]
-	path = client-customer
-	url = https://github.com/PhamLeMinhDuy/FlowerShopOnline/client-customer
-[submodule "server"]
-	path = server
-	url = https://github.com/PhamLeMinhDuy/FlowerShopOnline/server
