@@ -1,0 +1,76 @@
+.login-signup {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(205, 255, 232);
+}
+
+.login-signup-form {
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 0;
+    padding: 32px 64px;
+}
+
+.login-signup-form__title {
+    text-align: center;
+    margin-top: 12px;
+}
+
+.login-signup-form__title h2 {
+    margin-top: 0;
+}
+
+.login-signup-form__title-2 a{
+    font-size: 18px;
+    color: #000;
+}
+
+.login-signup-form__title-2 a:hover {
+    color: #f45d96;
+}
+
+.login-signup-form__form {
+    position: relative;
+}
+
+.login-signup-form__form-table {
+    margin-bottom: 60px;
+}
+
+.login-signup-form__form-table tr {
+    font-weight: 600;
+    line-height: 40px;
+
+}
+
+.login-signup-form__form-table-input {
+    outline: none;
+    border: 1px solid #333;
+    height: 24px;
+    border-radius: 2px;
+    background-color: #fcfcfc;
+    padding: 0 8px;
+}
+
+.login-signup-form__form-table-btn {
+    border: none;
+    background-color: rgb(169, 255, 215);
+    padding: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 24px;
+    border-radius: 4px;
+    transition: all linear 0.2s;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.login-signup-form__form-table-btn:hover {
+    color: #fff;
+    background-color: #f45d96;
+    cursor: pointer;
+}

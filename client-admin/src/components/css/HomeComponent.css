@@ -1,0 +1,10 @@
+.container {
+    background-color: rgb(205, 255, 232);
+    min-height: calc(100vh);
+}
+
+.container-home {
+    min-height: calc(100vh);
+    background-image: url("../img/admin-business-concept-3d-illustration-flat-lay-view-banner-background-metallic-2BCRAEJ.jpg");
+    background-size: cover;
+}

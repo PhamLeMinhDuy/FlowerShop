@@ -1,0 +1,29 @@
+.customer-list {
+    margin-top: 92px;
+    display: block;
+    background-color: rgb(205, 255, 232);
+    min-height: calc(100vh - 92px);
+}
+
+.customer__container {
+    width: 100%;
+}
+
+.customer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customer__container-title {
+    text-align: center;
+    padding-top: 24px;
+}
+
+.customer__container-table {
+    background-color: #fff;
+}
+
+.customer__container-table-titlerow {
+    background-color: antiquewhite;
+}

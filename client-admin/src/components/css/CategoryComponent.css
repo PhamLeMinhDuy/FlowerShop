@@ -1,0 +1,124 @@
+.container-categories{
+    background-color: rgb(205, 255, 232);
+    min-height: calc(100vh);
+    display: flex;
+}
+
+.category {
+    margin-top: 92px;
+    width: 70%;
+    position: relative;
+    height: auto;
+}
+
+.category__title {
+    font-size: 28px;
+    text-align: center;
+    padding-top: 24px;
+}
+
+.category__table {
+    background-color: #fff;
+    position: absolute;
+    top: 92px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 600px;
+}
+
+.category__table-body {
+    
+}
+
+.category__table-body-title {
+    background-color: antiquewhite;
+    height: 32px;
+}
+
+.category-detail {
+    width: 30%;
+    position: relative;
+}
+
+.category-detail__container {
+    position: absolute;
+    top: 124px;
+    left: 0;
+    width: 100%;
+}
+
+.category-detail__container-title {
+    margin: 12px 0;
+}
+
+.category-detail__container-row {
+    height: 28px;
+}
+
+.category-detail__container-input {
+    height: 28px;
+    outline: none;
+    padding: 0 8px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 3px;
+    border: 1px solid #d8d8d8;
+    width: 85%;
+}
+
+.category-detail__container-btn {
+    position: absolute;
+    display: flex;
+    margin-top: 16px;
+    width: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: space-around;
+}
+
+.category-detail__container-btn1 {
+    background-color: aquamarine;
+    margin: 12px 0;
+}
+
+.category-detail__container-btn2 {
+    background-color: rgb(227, 255, 66);
+    margin: 12px;
+}
+
+.category-detail__container-btn3 {
+    background-color: rgb(255, 101, 101);
+    margin: 12px 0;
+}
+
+.category-detail-btn {
+    outline: none;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: all linear 0.2s;
+    color: #000;
+}
+
+.category-detail-btn:hover {
+    color: #fff;
+    background-color: #a8a8a8;
+}
+
+.category-detail__container-input-disable {
+    background-color: #d8d8d8;
+}
+
+.category-detail__container-form {
+    width: 300px;
+    padding: 24px;
+    position: relative;
+    padding-bottom: 72px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.category-detail__container-table {
+    width: 100%;
+}

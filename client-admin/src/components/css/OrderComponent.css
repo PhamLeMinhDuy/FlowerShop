@@ -1,0 +1,29 @@
+.order-list {
+    margin-top: 92px;
+    display: block;
+    background-color: rgb(205, 255, 232);
+    min-height: calc(100vh - 92px);
+}
+
+.order__container {
+    width: 100%;
+}
+
+.order {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order__container-title {
+    text-align: center;
+    padding-top: 24px;
+}
+
+.order__container-table {
+    background-color: #fff;
+}
+
+.order__container-table-titlerow {
+    background-color: antiquewhite;
+}
